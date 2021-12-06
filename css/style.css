@@ -4,10 +4,38 @@ body{
     background-attachment: fixed;
 }
 
+p{
+    color: #EEEEEE;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+h5{
+    color: #EEEEEE;
+}
+
+.color-button{
+    background-color: #026873;
+    color: white;
+}
+
+.color-button hover{
+
+    transition: 0.5s;    
+    background-color: #0D0003;
+}
+
 .fundo_nav{
 
-    background-color: #77B6BB;
+    background-color: #99BFBB;
 
+}
+
+.color-card{
+
+    background-color: #024040;
 }
 
 
@@ -17,19 +45,41 @@ body{
 
 }
 
-
 .texto{
 
     padding-top: 2%;
 
 }
 
+.gif{
+
+    margin-top: 5%;
+}
 
 .h1{
 
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 3.5em;
+    color: #EEEEEE;
+}
 
+.h4{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.7em;
+    color: #EEEEEE;
+}
+
+.h5 {
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 0.8%;
+}
+
+.footer{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
