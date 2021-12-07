@@ -29,8 +29,13 @@ h5{
 
 .fundo_nav{
 
-    background-color: #99BFBB;
+    background-color: #026873;
 
+}
+
+.text-nav{
+
+    color: #cfcfcf;
 }
 
 .color-card{
@@ -49,6 +54,15 @@ h5{
 
     padding-top: 2%;
 
+}
+
+.texto-modal{
+
+    color: black;
+}
+
+.fundo-modal{
+    background-color: #024040;
 }
 
 .gif{
@@ -82,4 +96,85 @@ h5{
 .footer{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+}
+
+.espacamento-carrossel{
+    margin-top: 5.5%;
+}
+
+@media screen and (max-width: 450px){
+	.container{	
+        margin-top: 5%;
+        font-size: 100%
+        }
+    
+    .h1{
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #EEEEEE;
+    }
+
+    .espacamento-carrossel{
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 450px){
+	.container{	
+        margin-top: 5%;
+        font-size: 100%
+        }
+    
+    .h1{
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #EEEEEE;
+    }
+
+    .espacamento-carrossel{
+        margin-top: 25%;
+    }
+}
+
+@media screen and (min-width: 599px){
+	.container{	
+        margin-top: 5%;
+        font-size: 100%
+        }
+    
+    .h1{
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #EEEEEE;
+    }
+
+    .espacamento-carrossel{
+        margin-top: 15%;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+	.container{	
+        margin-top: 5%;
+        font-size: 100%
+        }
+    
+    .h1{
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #EEEEEE;
+    }
+
+    .espacamento-carrossel{
+        margin-top: 5%;
+    }
 }
